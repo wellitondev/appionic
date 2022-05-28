@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="titulo">Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <img 
+      class="img" 
+      src="https://blogdoanalia.shoppinganaliafranco.com.br/wp-content/uploads/2019/12/capa-restaurantes-portugal.jpg"
+    />
+    <p class="titulo">Encontre os melhores restaurantes perto de você!</p>
+
+    <ion-card [routerLink]="['/lugares']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://viagememdetalhes.com.br/wp-content/uploads/2019/07/Restaurante-com-vista-sp-seen.jpg"
+          />
+        </ion-thumbnail>
+        <ion-label>Lugares</ion-label>
+      </ion-item>
+    </ion-card>
+    <ion-card [routerLink]="['/reserva']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/db/Comidas_tipicas_colombianas.jpg"
+          />
+        </ion-thumbnail>
+
+        <ion-label>Reserva</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>

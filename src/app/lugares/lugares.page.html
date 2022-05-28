@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="titulo">Lugares</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-card (click)="Mexicana()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://img.imageboss.me/consul/cdn/animation:true/wp-content/uploads/2021/01/9-receitas-de-comida-mexicana-para-fazer-em-casa2.jpg"
+          />
+        </ion-thumbnail>
+        <ion-label>Mexicana</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="Caseira()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://conteudo.imguol.com.br/c/entretenimento/7d/2020/07/17/comida-arabe-1595004837222_v2_1x1.jpg"
+          />
+        </ion-thumbnail>
+        <ion-label>Caseira</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="Francesa()">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://img.itdg.com.br/tdg/images/blog/uploads/2019/06/Comida-francesa-ratatouille.jpg?w=1200"
+          />
+        </ion-thumbnail>
+        <ion-label>Francesa</ion-label>
+      </ion-item>
+    </ion-card>
+  </div></ion-content
+>

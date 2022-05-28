@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title class="titulo">Reserva</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <img
+      class="img"
+      src="https://diariodorio.com/wp-content/uploads/2021/06/Aprazivel.jpg"
+    />
+    <p class="titulo">Quer reserva seu restaurante?</p>
+  </div>
+  <form>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="text" name="nome"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Endereço</ion-label>
+      <ion-input type="text" name="endereço"></ion-input>
+    </ion-item>
+    <ion-button color="#52545a" expand="block" type="submit">Salvar</ion-button>
+  </form>
+</ion-content>
